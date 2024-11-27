@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/stream/:fileId', async (req, res) => {
   const fileId = req.params.fileId; // Mega file ID
-  const megaEmbedUrl = `https://mega.nz/embed/${fileId}`;
+  const megaEmbedUrl = `https://mega.nz/embed/LYMyEKZT`;
 
   try {
     const response = await fetch(megaEmbedUrl);
